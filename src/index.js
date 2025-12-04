@@ -24,3 +24,6 @@ root.render(
     <App />
   </React.StrictMode>
 );
+// docker build --no-cache -t react-app-test .
+// docker rm -f $(docker ps -aq)
+// docker run -d -p 8080:80 react-app-test
